@@ -134,7 +134,7 @@ Step 2. Add the dependency
 
 # Components 
 
-<h4> SmartEditText <h4>
+<h4> SmartEditText </h4>
 
 <b>TO USE</b>
 
