@@ -130,9 +130,7 @@ In your activity all you need is: <b>form.check()</b> !
         clickSmartEditText.editText().setOnClickListener { Toast.makeText(this, "Do something", Toast.LENGTH_SHORT).show() }
     }
 
-# Components 
-
-* <h4> SmartEditText </h4>
+# SmartEditText 
 
 <b>TO USE</b>
 
