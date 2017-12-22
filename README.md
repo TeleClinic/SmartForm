@@ -124,7 +124,7 @@ Step 2. Add the dependency
 
 </ScrollView>
 
- override fun onCreate(savedInstanceState: Bundle?) {
+    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         button.setOnClickListener { if (form.check()) continueWithYourCode() }
@@ -134,9 +134,9 @@ Step 2. Add the dependency
 
 # Components 
 
-<h5> SmartEditText <h5>
+<h4> SmartEditText <h4>
 
-<b> TO USE </b>
+<b>TO USE</b>
 
     <com.teleclinic.kabdo.smartmaterialedittext.CustomViews.SmartEditText
         android:id="@+id/emailSmartEditText"
@@ -147,7 +147,8 @@ Step 2. Add the dependency
         app:setRegexErrorMsg="Wrong email format"
         app:setRegexType="EMAIL_VALIDATION" />
 
-emailSmartEditText.check()
+    
+    emailSmartEditText.check()
 
 
 <b> ATTRIBUTES </b>
