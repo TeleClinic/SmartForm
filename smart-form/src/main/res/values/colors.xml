@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#359EAD</color>
+    <color name="colorPrimaryDark">#198B9B</color>
+    <color name="colorAccent">#FF6E6E</color>
+
+    <color name="primaryVeryLight">#88D3DD</color>
+    <color name="primaryLight">#57B7C4</color>
+    <color name="primaryLogoLight">#44B1C1</color>
+    <color name="primary">#359EAD</color>
+    <color name="primaryDark">#198B9B</color>
+    <color name="primaryVeryDark">#07707F</color>
+
+    <color name="redVeryLight">#FF9999</color>
+    <color name="redLight">#FF6E6E</color>
+    <color name="red">#FF4B4B</color>
+    <color name="redDark">#EF2121</color>
+    <color name="redVeryDark">#BC0C0C</color>
+
+    <color name="orange">#FF8C4B</color>
+    <color name="orangeVeryLight">#FFBE99</color>
+    <color name="orangeLight">#FFA26E</color>
+    <color name="orangeDark">#EF6B21</color>
+    <color name="orangeVeryDark">#BC4B0C</color>
+
+    <color name="purpleVeryLight">#C4CFEE</color>
+    <color name="purpleLight">#92A4D7</color>
+    <color name="purple">#677CBC</color>
+    <color name="purpleDark">#465DA2</color>
+    <color name="purpleVeryDark">#2D4690</color>
+
+    <color name="greenVeryLight">#8AE5B7</color>
+    <color name="greenLight">#5BD295</color>
+    <color name="green">#38C07B</color>
+    <color name="greenDark">#19B264</color>
+    <color name="greenVeryDark">#05914A</color>
+
+    <color name="white">#ffffff</color>
+    <color name="backgroundLight">#F9F9F9</color>
+    <color name="background">#EEEEEE</color>
+    <color name="backgroundDark">#E7E7E7</color>
+
+    <color name="separator">#E7E7E7</color>
+    <color name="chat_others">#38C07B</color>
+    <color name="hangup_color">#FF4B4B</color>
+    <color name="video_background">#000000</color>
+    <color name="chat_pending">#a0a0a0</color>
+
+    <color name="textVeryLight">#a0a0a0</color>
+    <color name="textLight">#999999</color>
+    <color name="textGray">#666666</color>
+    <color name="textDark">#222222</color>
+
+    <color name="transparentAccent">#e7b41313</color>
+    <color name="transparentLightWhite">#99FFFFFF</color>
+    <color name="transparentWhite">#44FFFFFF</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="transparentHeader">#18000000</color>
+    <color name="transparentDark">#22000000</color>
+    <color name="transparentStatusBar">#44000000</color>
+    <color name="transparentVeryDark">#77000000</color>
+    <color name="black">#000000</color>
+
+    <color name="gold">#fbd01d</color>
+
+</resources>
