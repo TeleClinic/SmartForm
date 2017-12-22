@@ -44,7 +44,7 @@ Step 2. Add the dependency
 	    <version>1.0.0</version>
 	</dependency>
 
-# Summary 
+# Quick look 
 
 <img src="screenshot1.png" width="200" height="400" />
 
