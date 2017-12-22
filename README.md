@@ -1,9 +1,13 @@
 # SmartForm [![](https://jitpack.io/v/TeleClinic/SmartForm.svg)](https://jitpack.io/#TeleClinic/SmartForm)
 SmartForm is a library that allows you to create easy forms that can be validated in one line, from Email to password, gender, dates and addresses. All in one place!
 
+# Video
+
+Coming soon!
+
 # Screenshots
 
-# Video
+<img src="screenshot1.png" width="200" height="400" />
 
 # How to use
 
@@ -42,13 +46,7 @@ Step 2. Add the dependency
 
 # Summary 
 
-<?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+<img src="screenshot1.png" width="200" height="400" />
 
     <com.teleclinic.kabdo.smartform.SmartFormLinearLayout
         android:id="@+id/form"
@@ -122,7 +120,7 @@ Step 2. Add the dependency
             android:text="check" />
     </com.teleclinic.kabdo.smartform.SmartFormLinearLayout>
 
-</ScrollView>
+In your activity all you need is: <b>form.check()</b> !
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
