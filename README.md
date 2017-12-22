@@ -209,3 +209,8 @@ DONE: Email, Password, Name, Phone Edittexts with easy Validations. Dates, Check
 
 TODO: Gender, Address
 
+
+# Libraries used
+
+* https://github.com/drawers/SpinnerDatePicker
+* https://github.com/pawegio/KAndroid
