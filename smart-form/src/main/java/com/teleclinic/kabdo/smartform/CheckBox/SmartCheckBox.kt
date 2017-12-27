@@ -16,7 +16,6 @@ class SmartCheckBox : CheckBox {
     var color: Int = resources.getColor(R.color.primary)
     var errorColor: Int = resources.getColor(R.color.primary)
     var labelColor: Int = resources.getColor(R.color.textGray)
-
     constructor(context: Context) : super(context) {
         init(context, null, null)
     }

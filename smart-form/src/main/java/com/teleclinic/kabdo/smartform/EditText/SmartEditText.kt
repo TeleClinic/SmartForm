@@ -29,6 +29,14 @@ class SmartEditText : FrameLayout {
     var regexErrorMessage: String = "Wrong Format"
     var validateOnKeyPressed: Boolean = true
     val passwordLength = 8
+    fun editText() = editText
+    fun setError(error: String) {
+        smartTextInputLayout.error = error
+    }
+
+    fun setHelperText(text: String) {
+        smartTextInputLayout.setHelperText(text)
+    }
 
     constructor(context: Context) : super(context) {
         init(context, null, null)

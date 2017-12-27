@@ -21,6 +21,7 @@ class SmartCheckBoxLayout : FrameLayout {
     var errorColor: Int = resources.getColor(R.color.primary)
     var labelColor: Int = resources.getColor(R.color.textGray)
 
+    fun checkbox() = checkbox
     fun textView(): TextView = textView
 
     constructor(context: Context) : super(context) {

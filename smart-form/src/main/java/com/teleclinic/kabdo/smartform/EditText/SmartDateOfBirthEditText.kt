@@ -22,7 +22,13 @@ class SmartDateOfBirthEditText : FrameLayout {
     var calendar = Calendar.getInstance()
     var mandatory: Boolean = true
     var mandatoryErrorMessage: String = "Mandatory Field"
-
+    fun editText() = editText
+    fun setError(error: String) {
+        smartTextInputLayout.error = error
+    }
+    fun setHelperText(text:String){
+        smartTextInputLayout.setHelperText(text)
+    }
     constructor(context: Context) : super(context) {
         init(context, null, null)
     }

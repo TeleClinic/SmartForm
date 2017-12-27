@@ -18,8 +18,13 @@ class SmartClickableEditText : FrameLayout {
     private var view = View.inflate(context, R.layout.smart_edittext_noteditable, null)
     var mandatory: Boolean = true
     var mandatoryErrorMessage: String = "Mandatory Field"
-    fun editText(): EditText = editText
-
+    fun editText() = editText
+    fun setError(error: String) {
+        smartTextInputLayout.error = error
+    }
+    fun setHelperText(text:String){
+        smartTextInputLayout.setHelperText(text)
+    }
     constructor(context: Context) : super(context) {
         init(context, null, null)
     }
