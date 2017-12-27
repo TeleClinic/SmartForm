@@ -59,7 +59,7 @@
             android:id="@+id/termsCheckbox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Terms and conditions"
+            app:scblText="Terms and conditions"
             app:scblColor="@color/gold"
             app:scblErrorColor="@color/red"
             app:scblTextColor="@color/orangeDark" />

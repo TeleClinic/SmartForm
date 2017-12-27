@@ -50,6 +50,7 @@ class SmartCheckBoxLayout : FrameLayout {
             errorColor = it.getColor(R.styleable.SmartCheckBoxLayout_scblErrorColor, errorColor)
             labelColor = it.getColor(R.styleable.SmartCheckBoxLayout_scblTextColor, labelColor)
             textView.setTextColor(labelColor)
+            textView.text =  it.getString(R.styleable.SmartCheckBoxLayout_scblText)
 
             arr.recycle()
         }
