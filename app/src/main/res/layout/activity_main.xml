@@ -59,7 +59,7 @@
             android:id="@+id/termsCheckbox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:scblText="Terms and conditions"
+            app:scblText="@string/ich_stimme_der_datenfreigabeerkl_rung_zu"
             app:scblColor="@color/gold"
             app:scblErrorColor="@color/red"
             app:scblTextColor="@color/orangeDark" />
@@ -68,7 +68,7 @@
             android:id="@+id/newsCheckbox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Recieve news letter"
+            android:text="@string/ich_stimme_der_datenfreigabeerkl_rung_zu"
             app:scbMandatory="false" />
 
         <Button

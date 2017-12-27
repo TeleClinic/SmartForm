@@ -47,7 +47,7 @@
 
     <declare-styleable name="SmartCheckBoxLayout">
         <attr name="scblMandatory" format="boolean" />
-        <attr name="scblText" format="string" />
+        <attr name="scblText" format="reference" />
         <attr name="scblColor" format="reference" />
         <attr name="scblErrorColor" format="reference" />
         <attr name="scblTextColor" format="reference" />

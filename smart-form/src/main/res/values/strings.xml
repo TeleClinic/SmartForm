@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SmartForm</string>
+    <string name="ich_stimme_der_datenfreigabeerkl_rung_zu">Ich stimme der &lt;u>&lt;b>Datenfreigabeerklärung&lt;/b>&lt;/u> zu</string>
 </resources>

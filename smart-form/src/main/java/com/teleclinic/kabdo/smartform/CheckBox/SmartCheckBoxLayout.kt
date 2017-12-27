@@ -3,6 +3,7 @@ package com.teleclinic.kabdo.smartform
 import android.content.Context
 import android.content.res.ColorStateList
 import android.os.Build
+import android.text.Html
 import android.util.AttributeSet
 import android.view.View
 import android.widget.FrameLayout
@@ -50,7 +51,8 @@ class SmartCheckBoxLayout : FrameLayout {
             errorColor = it.getColor(R.styleable.SmartCheckBoxLayout_scblErrorColor, errorColor)
             labelColor = it.getColor(R.styleable.SmartCheckBoxLayout_scblTextColor, labelColor)
             textView.setTextColor(labelColor)
-            textView.text =  it.getString(R.styleable.SmartCheckBoxLayout_scblText)
+            val text = it.getString(R.styleable.SmartCheckBoxLayout_scblText)
+            textView.text = Html.fromHtml(String.format(text))
 
             arr.recycle()
         }
