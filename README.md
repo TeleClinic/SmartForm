@@ -9,7 +9,7 @@ Coming soon!
 
 <img src="screenshot1.png" width="200" height="400" />
 
-# How to use
+# Integration
 
 <h4><b> Gradle: </b></h4>
 
