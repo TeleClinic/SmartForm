@@ -29,6 +29,8 @@ class SmartDateOfBirthEditText : FrameLayout {
     fun setHelperText(text:String){
         smartTextInputLayout.setHelperText(text)
     }
+
+    fun text() = editText.text.toString().trim()
     constructor(context: Context) : super(context) {
         init(context, null, null)
     }

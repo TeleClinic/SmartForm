@@ -34,6 +34,7 @@ class SmartEditText : FrameLayout {
         smartTextInputLayout.error = error
     }
 
+    fun text() = editText.text.toString().trim()
     fun setHelperText(text: String) {
         smartTextInputLayout.setHelperText(text)
     }
