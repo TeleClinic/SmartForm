@@ -9,7 +9,7 @@ Coming soon!
 
 <img src="screenshot1.png" width="200" height="400" />
 
-# How to use
+# Integration
 
 <h4><b> Gradle: </b></h4>
 
@@ -25,7 +25,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        compile 'com.github.TeleClinic:SmartForm:1.0.0'
+	        compile 'com.github.TeleClinic:SmartForm:1.0.4'
 	}
   
 <h4><b> Maven: </b></h4>
@@ -101,7 +101,7 @@ Step 2. Add the dependency
             android:id="@+id/termsCheckbox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Terms and conditions"
+            app:scblText="Terms and conditions"
             app:scblColor="@color/gold"
             app:scblErrorColor="@color/red"
             app:scblTextColor="@color/orangeDark" />
