@@ -51,8 +51,6 @@ class SmartRadioGroup : RadioGroup {
             }
 
             errorColor = it.getColor(R.styleable.SmartRadioGroup_srgErrorColor, errorColor)
-
-
             arr.recycle()
         }
     }
