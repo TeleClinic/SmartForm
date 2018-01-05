@@ -9,9 +9,17 @@
     <com.teleclinic.kabdo.smartform.SmartFormLinearLayout
         android:id="@+id/form"
         android:layout_width="match_parent"
-        android:layout_margin="16dp"
         android:layout_height="wrap_content"
+        android:layout_margin="16dp"
         android:orientation="vertical">
+
+        <com.teleclinic.kabdo.smartform.RadioButton.SmartRadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical"
+            app:srgErrorColor="@color/red"
+            app:srgLabels="Male,Female,Others" />
 
         <com.teleclinic.kabdo.smartform.SmartEditText
             android:id="@+id/emailSmartEditText"
@@ -59,9 +67,9 @@
             android:id="@+id/termsCheckbox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:scblText="@string/ich_stimme_der_datenfreigabeerkl_rung_zu"
             app:scblColor="@color/gold"
             app:scblErrorColor="@color/red"
+            app:scblText="@string/ich_stimme_der_datenfreigabeerkl_rung_zu"
             app:scblTextColor="@color/orangeDark" />
 
         <com.teleclinic.kabdo.smartform.SmartCheckBox

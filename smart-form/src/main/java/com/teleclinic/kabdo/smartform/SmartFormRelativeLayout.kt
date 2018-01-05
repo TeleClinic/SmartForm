@@ -5,6 +5,7 @@ import android.util.AttributeSet
 import android.view.View
 import android.widget.RelativeLayout
 import com.pawegio.kandroid.views
+import com.teleclinic.kabdo.smartform.RadioButton.SmartRadioGroup
 
 /**
  * Created by karimabdo on 12/22/17.
@@ -36,6 +37,7 @@ class SmartFormRelativeLayout : RelativeLayout {
                 is SmartCheckBoxLayout -> flag = it.check() && flag
                 is SmartDateOfBirthEditText -> flag = it.check() && flag
                 is SmartClickableEditText -> flag = it.check() && flag
+                is SmartRadioGroup -> flag = it.check() && flag
                 else -> {
                 }
             }
