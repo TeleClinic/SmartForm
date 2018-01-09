@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:orientation="vertical"
+            android:orientation="horizontal"
             app:srgErrorColor="@color/red"
             app:srgLabels="Male,Female,Others" />
 
@@ -56,12 +56,14 @@
             app:sdofLabel="Date of birth"
             app:sdofMandatoryErrorMsg="Mandatory field" />
 
-        <com.teleclinic.kabdo.smartform.SmartClickableEditText
+        <com.teleclinic.kabdo.smartform.SmartPhoneNumberEditText
             android:id="@+id/clickSmartEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:scetLabel="Phone Number"
-            app:scetMandatoryErrorMsg="Mandatory field" />
+            app:spnLabel="Phone Number"
+            app:spnMandatoryErrorMsg="Mandatory field"
+            app:spnOk="Ok"
+            app:spnErrorMessage="Please enter a valid phone number"/>
 
         <com.teleclinic.kabdo.smartform.SmartCheckBoxLayout
             android:id="@+id/termsCheckbox"
@@ -76,7 +78,7 @@
             android:id="@+id/newsCheckbox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/ich_stimme_der_datenfreigabeerkl_rung_zu"
+            android:text="Subscribe to newsletter"
             app:scbMandatory="false" />
 
         <Button

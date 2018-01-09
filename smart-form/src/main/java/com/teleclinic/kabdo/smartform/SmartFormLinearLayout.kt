@@ -39,6 +39,7 @@ class SmartFormLinearLayout : LinearLayout {
                 is SmartDateOfBirthEditText -> flag = it.check() && flag
                 is SmartClickableEditText -> flag = it.check() && flag
                 is SmartRadioGroup -> flag = it.check() && flag
+                is SmartPhoneNumberEditText -> flag = it.check() && flag
                 else -> {
                 }
             }

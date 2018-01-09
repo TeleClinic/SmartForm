@@ -30,6 +30,10 @@ class SmartEditText : FrameLayout {
     var validateOnKeyPressed: Boolean = true
     val passwordLength = 8
     fun editText() = editText
+    fun setLabel(label: String) {
+        smartTextInputLayout.hint = label
+    }
+
     fun setError(error: String) {
         smartTextInputLayout.error = error
     }

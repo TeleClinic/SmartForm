@@ -31,6 +31,15 @@
         <attr name="sdofMandatoryErrorMsg" format="string" />
     </declare-styleable>
 
+    <declare-styleable name="SmartPhoneNumberEditText">
+        <attr name="spnLabel" format="string" />
+        <attr name="spnOk" format="string" />
+        <attr name="spnErrorMessage" format="string" />
+        <attr name="spnTextColor" format="reference|color" />
+        <attr name="spnMandatory" format="boolean" />
+        <attr name="spnMandatoryErrorMsg" format="string" />
+    </declare-styleable>
+
     <declare-styleable name="SmartClickableEditText">
         <attr name="scetLabel" format="string" />
         <attr name="scetTextColor" format="reference|color" />

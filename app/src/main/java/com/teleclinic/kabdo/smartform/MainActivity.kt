@@ -12,7 +12,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         button.setOnClickListener { if (form.check()) continueWithYourCode() }
         termsCheckbox.textView().setOnClickListener { Toast.makeText(this, "Do something", Toast.LENGTH_SHORT).show() }
-        clickSmartEditText.editText().setOnClickListener { Toast.makeText(this, "Do something", Toast.LENGTH_SHORT).show() }
     }
 
     private fun continueWithYourCode() {
