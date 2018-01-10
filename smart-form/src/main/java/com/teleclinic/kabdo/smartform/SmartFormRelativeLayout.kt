@@ -39,6 +39,9 @@ class SmartFormRelativeLayout : RelativeLayout {
                 is SmartClickableEditText -> flag = it.check() && flag
                 is SmartRadioGroup -> flag = it.check() && flag
                 is SmartPhoneNumberEditText -> flag = it.check() && flag
+                is SmartFormLinearLayout -> flag = it.check() && flag
+                is SmartFormRelativeLayout -> flag = it.check() && flag
+                is SmartFormConstraintLayout -> flag = it.check() && flag
                 else -> {
                 }
             }

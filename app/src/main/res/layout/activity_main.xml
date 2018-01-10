@@ -19,7 +19,8 @@
             android:layout_marginBottom="16dp"
             android:orientation="horizontal"
             app:srgErrorColor="@color/red"
-            app:srgLabels="Male,Female,Others" />
+            app:srgLabels="Male,Female,Others"
+            app:srgMandatory="true" />
 
         <com.teleclinic.kabdo.smartform.SmartEditText
             android:id="@+id/emailSmartEditText"
@@ -60,10 +61,10 @@
             android:id="@+id/clickSmartEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            app:spnErrorMessage="Please enter a valid phone number"
             app:spnLabel="Phone Number"
             app:spnMandatoryErrorMsg="Mandatory field"
-            app:spnOk="Ok"
-            app:spnErrorMessage="Please enter a valid phone number"/>
+            app:spnOk="Ok" />
 
         <com.teleclinic.kabdo.smartform.SmartCheckBoxLayout
             android:id="@+id/termsCheckbox"
