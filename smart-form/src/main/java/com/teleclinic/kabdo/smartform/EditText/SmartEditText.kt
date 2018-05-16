@@ -29,6 +29,7 @@ class SmartEditText : FrameLayout {
     var regexErrorMessage: String = "Wrong Format"
     var validateOnKeyPressed: Boolean = true
     val passwordLength = 8
+
     fun editText() = editText
     fun setLabel(label: String) {
         smartTextInputLayout.hint = label
