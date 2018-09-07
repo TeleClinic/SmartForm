@@ -53,11 +53,11 @@ open class SmartTextInputLayout : TextInputLayout {
         }
     }
 
-    fun setHelperTextColor(_helperTextColor: ColorStateList) {
+    override fun setHelperTextColor(_helperTextColor: ColorStateList?) {
         mHelperTextColor = _helperTextColor
     }
 
-    fun setHelperTextEnabled(_enabled: Boolean) {
+    override fun setHelperTextEnabled(_enabled: Boolean) {
         if (mHelperTextEnabled == _enabled) return
         if (_enabled && mErrorEnabled) {
             isErrorEnabled = false
@@ -73,9 +73,9 @@ open class SmartTextInputLayout : TextInputLayout {
                 this.addView(this.mHelperView)
                 if (this.mHelperView != null) {
                     ViewCompat.setPaddingRelative(
-                            this.mHelperView,
-                            ViewCompat.getPaddingStart(editText),
-                            0, ViewCompat.getPaddingEnd(editText),
+                            this.mHelperView!!,
+                            ViewCompat.getPaddingStart(this.editText as View),
+                            0, ViewCompat.getPaddingEnd(this.editText as View),
                             editText?.paddingBottom ?: 0)
                 }
             } else {
@@ -87,7 +87,7 @@ open class SmartTextInputLayout : TextInputLayout {
         }
     }
 
-    fun setHelperText(_helperText: CharSequence) {
+    override fun setHelperText(_helperText: CharSequence?) {
         if (mHelperText ?: "" == _helperText)
             return
         isErrorEnabled = false
@@ -103,12 +103,12 @@ open class SmartTextInputLayout : TextInputLayout {
             this.mHelperView?.text = mHelperText
             this.mHelperView?.visibility = View.VISIBLE
             ViewCompat.setAlpha(this.mHelperView, 0.0f)
-            ViewCompat.animate(this.mHelperView)
+            ViewCompat.animate(this.mHelperView!!)
                     .alpha(1.0f).setDuration(200L)
                     .setInterpolator(FAST_OUT_SLOW_IN_INTERPOLATOR)
                     .setListener(null).start()
         } else if (this.mHelperView?.visibility == View.VISIBLE) {
-            ViewCompat.animate(this.mHelperView)
+            ViewCompat.animate(this.mHelperView!!)
                     .alpha(0.0f).setDuration(200L)
                     .setInterpolator(FAST_OUT_SLOW_IN_INTERPOLATOR)
                     .setListener(object : ViewPropertyAnimatorListenerAdapter() {
